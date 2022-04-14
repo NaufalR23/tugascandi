@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:tugas2/listtile.dart';
-import 'package:tugas2/main.dart';
 
 class Pendahuluan extends StatelessWidget {
   const Pendahuluan({Key? key}) : super(key: key);

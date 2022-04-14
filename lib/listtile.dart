@@ -1,14 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tugas2/candi%20borobudur.dart';
-import 'package:tugas2/candidieng.dart';
-import 'package:tugas2/candigedong.dart';
-import 'package:tugas2/cetho.dart';
-import 'package:tugas2/ijo.dart';
-import 'package:tugas2/plaosan.dart';
-import 'package:tugas2/prambanan.dart';
-import 'package:tugas2/ratu.dart';
-import 'package:tugas2/sewu.dart';
-import 'package:tugas2/tikus.dart';
+import 'package:tugas2/keterangancandi.dart';
 
 class Ltiles extends StatelessWidget {
   const Ltiles({Key? key}) : super(key: key);
