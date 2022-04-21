@@ -8,21 +8,21 @@ class Ltiles extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Candi di Indonesia'),
+        title: const Text('Candi di Indonesia'),
         backgroundColor: Colors.blue,
       ),
       body: ListView(
-        padding: EdgeInsets.all(5),
+        padding: const EdgeInsets.all(5),
         children: [
           ListTile(
-            leading: CircleAvatar(
+            leading: const CircleAvatar(
               backgroundImage: AssetImage('assets/candi.jpg'),
             ),
-            title: Text(
+            title: const Text(
               'Candi Borobudur ',
               textScaleFactor: 1.5,
             ),
-            subtitle: Text('Magelang, Jawa Tengah'),
+            subtitle: const Text('Magelang, Jawa Tengah'),
             onTap: () {
               Navigator.push(context, MaterialPageRoute(builder: (_) {
                 return const Candiborobudur();
